@@ -20,7 +20,7 @@ The unit tests cover the following behaviors.
 - commitAll behavior
 
 
-#to run the test, be in the root folder, and run:\
+#to run the test, be in the root folder, and run:
 
 #npm install\
 #npm run test
