@@ -1,5 +1,5 @@
-import { ITransaction } from "./Interfaces/Itransaction.ts";
-import { IKeyValueAccess } from "./Interfaces/IKeyValueaccess.ts";
+import { ITransaction } from "./Interfaces/Itransaction";
+import { IKeyValueAccess } from "./Interfaces/IKeyValueaccess";
 
 
 export class Transaction implements ITransaction {
