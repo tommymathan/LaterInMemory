@@ -22,4 +22,4 @@ The unit tests cover the following behaviors.
 
 #to run the test, be in teh root folder, and run 
 npm install
-npx jest
+npm run test
