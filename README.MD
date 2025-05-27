@@ -17,7 +17,7 @@ The unit tests cover the following behaviors.
 - Set/Get/Delete behavior
 - Transaction begin/commit/rollback
 - Nested transactions
-- `commitAll` behavior
+- commitAll behavior
 
 
 #to run the test, be in the root folder, and run 
