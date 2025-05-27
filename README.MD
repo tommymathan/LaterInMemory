@@ -22,5 +22,5 @@ The unit tests cover the following behaviors.
 
 #to run the test, be in the root folder, and run:
 
-#npm install\
-#npm run test
+npm install\
+npm run test
