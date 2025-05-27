@@ -22,7 +22,8 @@ export class Transaction implements ITransaction {
   }
 
   has(key: string): boolean {
-    return this.data.has(key) || this.deletedKeys.has(key);
+    if (this.deletedKeys.has(key)) return false;
+    return this.data.has(key);
   }
 
   mergeInto(parent: IKeyValueAccess): void {
