@@ -1,4 +1,4 @@
-This is in-memory key value store written with nested transactions in TypeScript:
+This is in-memory key value store with nested transactions in TypeScript:
 
 #Archictecture 
 
@@ -10,7 +10,7 @@ This was because both , IKeyValueStore and ITransaction, had the following share
   delete(key: string): void;
   has(key: string): boolean;
 
-However I decided against having one shared implementation used by both Transaction and IkeyValueStore, because it allows for better encapsulation, each class handles its own logic. 
+However I decided against having one shared implementation used by both Transaction and IkeyValueStore, allowing for better encapsulation, each class handles its own logic. 
 
 #Unit Tests
 The unit tests cover the following behaviors.
@@ -20,7 +20,7 @@ The unit tests cover the following behaviors.
 - commitAll behavior
 
 
-#to run the test, be in the root folder, and run:
+#to run the tests, be in the root folder, and run:
 
 npm install\
 npm run test
