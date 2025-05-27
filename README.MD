@@ -1,4 +1,4 @@
-This is in-memory key value store written in TypeScript nested transactions. 
+This is in-memory key value store written with nested transactions in TypeScript:
 
 #Archictecture 
 
